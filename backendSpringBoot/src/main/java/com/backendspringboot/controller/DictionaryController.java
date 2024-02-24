@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/dictionary")
 public class DictionaryController {
 
-private final DictionaryService dictionaryService;
+    private final DictionaryService dictionaryService;
 
     public DictionaryController(DictionaryService dictionaryService) {
         this.dictionaryService = dictionaryService;
